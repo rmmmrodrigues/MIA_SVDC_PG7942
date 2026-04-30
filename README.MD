@@ -4,15 +4,18 @@
 
 ## Carregar dataset
 
-Link: https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv
+![## 📥 Carregar dataset](./images/step_1.png)
 
-![Carregar dataset](./images/step_1.png)
+### Link:
+- https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
 
 ---
 
 ## Load and transform
 
-![Load and transform](./images/step_2.png)
+![## 🔧 Load and transform](./images/step_1.png)
 
 ---
 
