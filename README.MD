@@ -13,7 +13,7 @@
 
 ## 🔧 Load and transform
 
-![## 🔧 Load and transform](./images/step_2.png)
+![## 🔧 Load and transform](./images/step_1.png)
 
 ### Como fazer:
 - Seguir os passos no Power BI conforme ilustrado.
