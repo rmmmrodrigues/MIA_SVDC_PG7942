@@ -8,8 +8,6 @@
 
 ### Link:
 - https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
 
 ---
 
