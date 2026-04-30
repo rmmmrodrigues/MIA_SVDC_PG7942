@@ -105,7 +105,7 @@ date
 
 ## Criar Botões de Navegação
 
-![Botões](./images/step_4.png)
+![Botões](./images/image7.png)
 
 ---
 
