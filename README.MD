@@ -101,8 +101,6 @@ population
 
 date  
 
-![Tipos de dados](./images/step_5.png)
-
 ---
 
 ## Criar Botões de Navegação
@@ -155,6 +153,6 @@ date
 
 ## Criar Slicer
 
-![Slicer](./images/step_14.png)
+![Slicer](./images/step_10.png)
 
 ---
