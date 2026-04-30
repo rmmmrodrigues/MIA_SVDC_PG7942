@@ -4,7 +4,7 @@
 
 ## Carregar dataset
 
-![## 📥 Carregar dataset](./images/step_1.png)
+
 
 ### Link:
 - https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv
@@ -23,13 +23,9 @@
 
 human_development_index não tem dados
 
-![Remover coluna](./images/step_3.png)
-
 ---
 
 ## Transform: Use First Row as Headers
-
-![Use First Row as Headers](./images/step_4.png)
 
 ---
 
@@ -111,49 +107,49 @@ date
 
 ## Criar Botões de Navegação
 
-![Botões](./images/step_6.png)
+![Botões](./images/step_4.png)
 
 ---
 
 ## Criar Mapa
 
-![Mapa](./images/step_7.png)
+![Mapa](./images/step_3.png)
 
 ---
 
 ## Criar titulo com caixa de Texto
 
-![Titulo](./images/step_8.png)
+![Titulo](./images/step_4.png)
 
 ---
 
 ## Criar Cards
 
-![Cards](./images/step_9.png)
+![Cards](./images/step_5.png)
 
 ---
 
 ## Criar Gráfico de barras com Data Drill
 
-![Bar Chart](./images/step_10.png)
+![Bar Chart](./images/step_6.png)
 
 ---
 
 ## Criar Linechart com previsão
 
-![Linechart](./images/step_11.png)
+![Linechart](./images/step_7.png)
 
 ---
 
 ## Criação de tree map
 
-![Tree Map](./images/step_12.png)
+![Tree Map](./images/step_8.png)
 
 ---
 
 ## Criar Donut Chart
 
-![Donut](./images/step_13.png)
+![Donut](./images/step_9.png)
 
 ---
 
