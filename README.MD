@@ -1,72 +1,121 @@
-Start
-DataSet Covid: https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv
-Load Dataset- Transfrom Data
+# 📊 COVID-19 Power BI Dashboard
 
-Transform: Use First Row as Headers
+![Preview](./images/image1.png)
 
-Alterar os tipos de dados das colunas
-Decimal
-new_cases_smoothed
-total_cases_per_million	
-new_cases_per_million	
-new_cases_smoothed_per_million
-new_deaths_smoothed
-total_deaths_per_million
-new_deaths_per_million
-new_deaths_smoothed_per_million
-excess_mortality
-excess_mortality_cumulative
-excess_mortality_cumulative_absolute
-excess_mortality_cumulative_per_million
-hosp_patients_per_million
-weekly_hosp_admissions_per_million
-icu_patients_per_million
-weekly_icu_admissions_per_million
-stringency_index
-reproduction_rate
-total_tests_per_thousand
-new_tests_per_thousand
-new_tests_smoothed_per_thousand	
-positive_rate
-tests_per_case
-new_vaccinations_smoothed	
-total_vaccinations_per_hundred
-people_vaccinated_per_hundred	
-people_fully_vaccinated_per_hundred	
-total_boosters_per_hundred	
-new_vaccinations_smoothed_per_million	
-new_people_vaccinated_smoothed
-new_people_vaccinated_smoothed_per_hundred
-population_density
-median_age
-life_expectancy
-gdp_per_capita
-extreme_poverty
-diabetes_prevalence
-handwashing_facilities
-hospital_beds_per_thousand
+## 🔗 Dataset
+[Our World in Data COVID Dataset](https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv)
 
+---
 
-WholeNumber
-total_cases	
-new_cases
-total_deaths
-new_deaths
-hosp_patients
-weekly_hosp_admissions
-icu_patients
-weekly_icu_admissions
-total_tests	
-new_tests
-new_tests_smoothed
-total_vaccinations
-people_vaccinated	
-people_fully_vaccinated	total_boosters
-new_vaccinations
-total_boosters
-population
+## 🚀 Overview
+This project builds an interactive Power BI dashboard to analyze COVID-19 trends, including cases, deaths, and vaccinations.
 
-Date
-date
+---
 
-No documento Word deste repositório estão presentes os screen shots
+## 📥 1. Load Data
+- **Get Data → Web/CSV**
+- Load dataset
+- Click **Transform Data**
+
+---
+
+## 🔧 2. Data Transformation
+
+### ✔️ Use First Row as Headers
+- Transform → *Use First Row as Headers*
+
+### ✔️ Remove Columns
+- Remove `human_development_index` (no data)
+
+---
+
+## 🔢 3. Data Types
+
+### 🔹 Decimal Columns
+Converted multiple columns such as:
+- new_cases_smoothed
+- total_cases_per_million
+- reproduction_rate
+- gdp_per_capita
+- etc.
+
+### 🔹 Whole Number Columns
+- total_cases
+- total_deaths
+- population
+- etc.
+
+### 🔹 Date Column
+- `date` → Date format
+
+---
+
+## 📊 4. Visualizations
+
+### 📌 KPI Cards
+![Cards](./images/image2.png)
+
+**Steps:**
+- Insert → Card
+- Add measures (Total Cases, Deaths, etc.)
+- Format currency and units
+
+---
+
+### 📈 Line Chart + Forecast
+![Line Chart](./images/image3.png)
+
+**Steps:**
+- Axis → Date
+- Values → Total Cases
+- Analytics → Enable Forecast
+
+---
+
+### 🌳 Tree Map
+![TreeMap](./images/image4.png)
+
+**Steps:**
+- Group → Location
+- Values → Total Cases
+
+---
+
+### 🍩 Donut Chart
+![Donut](./images/image5.png)
+
+**Steps:**
+- Legend → Category
+- Values → Total Cases
+
+---
+
+### 🎚️ Slicer
+![Slicer](./images/image6.png)
+
+**Steps:**
+- Add slicer
+- Use Date or Location
+- Set to Between or List
+
+---
+
+## 🔍 Features
+- Interactive filters
+- Drill-down analysis
+- Forecasting
+- KPI monitoring
+
+---
+
+## 📦 Project Structure
+```
+/README.md
+/images/
+```
+
+---
+
+## 🎯 Conclusion
+This dashboard enables dynamic exploration of COVID-19 data, supporting better insights and decision-making.
+
