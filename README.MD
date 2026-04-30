@@ -1,120 +1,161 @@
-# 📊 COVID-19 Power BI Dashboard
-
-## 📥 Carregar dataset
-
-![## 📥 Carregar dataset](./images/step_1.png)
-
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
+# 📊 COVID Power BI Report
 
 ---
 
-## 🔧 Load and transform
+## Carregar dataset
 
-![## 🔧 Load and transform](./images/step_2.png)
+Link: https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv
 
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
-
----
-
-## 🧹 Remover coluna
-
-![## 🧹 Remover coluna](./images/step_3.png)
-
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
+![Carregar dataset](./images/step_1.png)
 
 ---
 
-## ⚙️ Transform: Use First Row as Headers
+## Load and transform
 
-![## ⚙️ Transform: Use First Row as Headers](./images/step_4.png)
-
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
+![Load and transform](./images/step_2.png)
 
 ---
 
-## 🔢 Alterar Tipos de Dados
+## Remover coluna:
 
-![## 🔢 Alterar Tipos de Dados](./images/step_5.png)
+human_development_index não tem dados
 
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
-
----
-
-## 🔘 Criar Botões de Navegação
-
-![## 🔘 Criar Botões de Navegação](./images/step_6.png)
-
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
+![Remover coluna](./images/step_3.png)
 
 ---
 
-## 🗺️ Criar Mapa
+## Transform: Use First Row as Headers
 
-![## 🗺️ Criar Mapa](./images/step_7.png)
-
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
+![Use First Row as Headers](./images/step_4.png)
 
 ---
 
-## 🏷️ Criar título com caixa de texto
+## Alterar Tipo de dados para os campos:
 
-![## 🏷️ Criar título com caixa de texto](./images/step_8.png)
+### Decimal
 
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
-
----
-
-## 📊 Criar Cards
-
-![## 📊 Criar Cards](./images/step_9.png)
-
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
-
----
-
-## 📊 Gráfico de barras com Data Drill
-
-![## 📊 Gráfico de barras com Data Drill](./images/step_10.png)
-
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
-
----
-
-## 📈 Linechart com previsão
-
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
-
----
-
-## 🌳 Tree Map
-
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
-
----
-
-## 🍩 Donut Chart
-
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
+new_cases_smoothed  
+total_cases_per_million  
+new_cases_per_million  
+new_cases_smoothed_per_million  
+new_deaths_smoothed  
+total_deaths_per_million  
+new_deaths_per_million  
+new_deaths_smoothed_per_million  
+excess_mortality  
+excess_mortality_cumulative  
+excess_mortality_cumulative_absolute  
+excess_mortality_cumulative_per_million  
+hosp_patients_per_million  
+weekly_hosp_admissions_per_million  
+icu_patients_per_million  
+weekly_icu_admissions_per_million  
+stringency_index  
+reproduction_rate  
+total_tests_per_thousand  
+new_tests_per_thousand  
+new_tests_smoothed_per_thousand  
+positive_rate  
+tests_per_case  
+new_vaccinations_smoothed  
+total_vaccinations_per_hundred  
+people_vaccinated_per_hundred  
+people_fully_vaccinated_per_hundred  
+total_boosters_per_hundred  
+new_vaccinations_smoothed_per_million  
+new_people_vaccinated_smoothed  
+new_people_vaccinated_smoothed_per_hundred  
+population_density  
+median_age  
+life_expectancy  
+gdp_per_capita  
+extreme_poverty  
+diabetes_prevalence  
+handwashing_facilities  
+hospital_beds_per_thousand  
 
 ---
 
-## 🎚️ Slicer
+### WholeNumber
 
-### Como fazer:
-- Seguir os passos no Power BI conforme ilustrado.
+total_cases  
+new_cases  
+total_deaths  
+new_deaths  
+hosp_patients  
+weekly_hosp_admissions  
+icu_patients  
+weekly_icu_admissions  
+total_tests  
+new_tests  
+new_tests_smoothed  
+total_vaccinations  
+people_vaccinated  
+people_fully_vaccinated  
+total_boosters  
+new_vaccinations  
+population  
 
 ---
 
+### Date
+
+date  
+
+![Tipos de dados](./images/step_5.png)
+
+---
+
+## Criar Botões de Navegação
+
+![Botões](./images/step_6.png)
+
+---
+
+## Criar Mapa
+
+![Mapa](./images/step_7.png)
+
+---
+
+## Criar titulo com caixa de Texto
+
+![Titulo](./images/step_8.png)
+
+---
+
+## Criar Cards
+
+![Cards](./images/step_9.png)
+
+---
+
+## Criar Gráfico de barras com Data Drill
+
+![Bar Chart](./images/step_10.png)
+
+---
+
+## Criar Linechart com previsão
+
+![Linechart](./images/step_11.png)
+
+---
+
+## Criação de tree map
+
+![Tree Map](./images/step_12.png)
+
+---
+
+## Criar Donut Chart
+
+![Donut](./images/step_13.png)
+
+---
+
+## Criar Slicer
+
+![Slicer](./images/step_14.png)
+
+---
