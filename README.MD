@@ -1,121 +1,120 @@
 # 📊 COVID-19 Power BI Dashboard
 
-![Preview](./images/image1.png)
+## 📥 Carregar dataset
 
-## 🔗 Dataset
-[Our World in Data COVID Dataset](https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv)
+![## 📥 Carregar dataset](./images/step_1.png)
 
----
-
-## 🚀 Overview
-This project builds an interactive Power BI dashboard to analyze COVID-19 trends, including cases, deaths, and vaccinations.
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
 
 ---
 
-## 📥 1. Load Data
-- **Get Data → Web/CSV**
-- Load dataset
-- Click **Transform Data**
+## 🔧 Load and transform
+
+![## 🔧 Load and transform](./images/step_2.png)
+
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
 
 ---
 
-## 🔧 2. Data Transformation
+## 🧹 Remover coluna
 
-### ✔️ Use First Row as Headers
-- Transform → *Use First Row as Headers*
+![## 🧹 Remover coluna](./images/step_3.png)
 
-### ✔️ Remove Columns
-- Remove `human_development_index` (no data)
-
----
-
-## 🔢 3. Data Types
-
-### 🔹 Decimal Columns
-Converted multiple columns such as:
-- new_cases_smoothed
-- total_cases_per_million
-- reproduction_rate
-- gdp_per_capita
-- etc.
-
-### 🔹 Whole Number Columns
-- total_cases
-- total_deaths
-- population
-- etc.
-
-### 🔹 Date Column
-- `date` → Date format
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
 
 ---
 
-## 📊 4. Visualizations
+## ⚙️ Transform: Use First Row as Headers
 
-### 📌 KPI Cards
-![Cards](./images/image2.png)
+![## ⚙️ Transform: Use First Row as Headers](./images/step_4.png)
 
-**Steps:**
-- Insert → Card
-- Add measures (Total Cases, Deaths, etc.)
-- Format currency and units
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
 
 ---
 
-### 📈 Line Chart + Forecast
-![Line Chart](./images/image3.png)
+## 🔢 Alterar Tipos de Dados
 
-**Steps:**
-- Axis → Date
-- Values → Total Cases
-- Analytics → Enable Forecast
+![## 🔢 Alterar Tipos de Dados](./images/step_5.png)
 
----
-
-### 🌳 Tree Map
-![TreeMap](./images/image4.png)
-
-**Steps:**
-- Group → Location
-- Values → Total Cases
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
 
 ---
 
-### 🍩 Donut Chart
-![Donut](./images/image5.png)
+## 🔘 Criar Botões de Navegação
 
-**Steps:**
-- Legend → Category
-- Values → Total Cases
+![## 🔘 Criar Botões de Navegação](./images/step_6.png)
 
----
-
-### 🎚️ Slicer
-![Slicer](./images/image6.png)
-
-**Steps:**
-- Add slicer
-- Use Date or Location
-- Set to Between or List
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
 
 ---
 
-## 🔍 Features
-- Interactive filters
-- Drill-down analysis
-- Forecasting
-- KPI monitoring
+## 🗺️ Criar Mapa
+
+![## 🗺️ Criar Mapa](./images/step_7.png)
+
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
 
 ---
 
-## 📦 Project Structure
-```
-/README.md
-/images/
-```
+## 🏷️ Criar título com caixa de texto
+
+![## 🏷️ Criar título com caixa de texto](./images/step_8.png)
+
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
 
 ---
 
-## 🎯 Conclusion
-This dashboard enables dynamic exploration of COVID-19 data, supporting better insights and decision-making.
+## 📊 Criar Cards
+
+![## 📊 Criar Cards](./images/step_9.png)
+
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
+
+---
+
+## 📊 Gráfico de barras com Data Drill
+
+![## 📊 Gráfico de barras com Data Drill](./images/step_10.png)
+
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
+
+---
+
+## 📈 Linechart com previsão
+
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
+
+---
+
+## 🌳 Tree Map
+
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
+
+---
+
+## 🍩 Donut Chart
+
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
+
+---
+
+## 🎚️ Slicer
+
+### Como fazer:
+- Seguir os passos no Power BI conforme ilustrado.
+
+---
 
